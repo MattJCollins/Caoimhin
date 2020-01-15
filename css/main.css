@@ -1,0 +1,292 @@
+body {
+	background: #b0e0e6;
+	font-family: sans-serif;
+	margin: 0;
+	margin-top: 4%;
+}
+p {
+	border-radius: 7px;
+	border: 1px solid black;
+}
+a {
+	color: #b0e0e6;
+}
+header {
+	background: transparent;
+	color: black;
+	padding: 15px 100px 15px 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+h1 {
+	display: inline;
+	font-size: 19px;
+	text-transform: uppercase;
+	color: white;
+	-webkit-text-stroke: 1px black;
+}
+h2 {
+	position: absolute;
+	top: 55%;
+	left: 40%;
+	font-size:17px;
+	color: #555;
+}
+h3 {
+	position: absolute;
+	top: 10%;
+	left: 45%;
+	font-size: 56px;
+}
+
+h4 {
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	font-size: 90px;
+}
+
+h5 {
+	position: absolute;
+	top: 5%;
+	left: 43%;
+	font-size: 30px;
+}
+
+.rectangle {
+	height: 3px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	top: 9%;
+}
+
+
+nav ul {
+	display: inline;
+}
+nav ul li {
+	position: relative;
+	right: 4%;
+	display: inline-block;
+	list-style-type: none;
+	padding: 2px 10px;
+	float: right;
+	margin: 0 5px 0 0;
+}
+nav ul li .btn:link, .btn:visited {
+	color: white;
+	background: #999;
+	border-radius: 7px;
+	border: 1px solid white;
+	padding: 5px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav ul li .btn:hover {
+	color: black;
+	background: white;
+	border-radius: 7px;
+	border: 1px solid white;
+	padding: 5px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition-duration: 0.3s;
+}
+.about {
+	position: absolute;
+	top: 35%;
+	left: 19%;
+	background:#e6f5ff;
+	color: black;
+	margin: 5px 200px 15px 200px;
+	padding: 10px;
+}
+.athletics {
+	position: absolute;
+	top: 75%;
+	left: 17.4%;
+	background: white;
+	color: black;
+	margin: 5px 200px 15px 200px;
+	padding: 10px;
+	width: 35%;
+	text-align: center;
+}
+.contactme {
+	position: absolute;
+	top: 82%;
+	left: 56%;
+	color: white;
+	-webkit-text-stroke: 1px black;
+}
+.titlecontact {
+	position: absolute;
+	top: 11%;
+	left: 38%;
+	font-size: 56px;
+}
+.experiences {
+	position: absolute;
+	top: 35%;
+	left: 19%;
+	background:#275e91;
+	color: white;
+	margin: 5px 200px 15px 200px;
+	padding: 10px;
+}
+
+
+.shad {
+	position: absolute;
+	top: 28%;
+	left: 53%;
+}
+.background {
+	position: absolute;
+	height: 91%;
+	width: 99.7%;
+	z-index: -99;
+	border-radius: 22px 22px 0 0;
+	border: 2px solid black;
+	margin: 0px;
+}
+.logo {
+	position: relative;
+	height: 280px;
+	width: 280px;
+	margin: 120px 0px 150px 80px;
+	display: inline;
+	border-radius: 7px;
+}
+.profile {
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	margin: 90px 0px 0px 30px;
+	display: inline;
+	border-radius: 7px;
+	border: 3px solid black;
+}
+
+.guinness {
+	position: absolute;
+	right: 40%;
+	top: 0%;
+	height: 350px;
+	width: 550px;
+	margin: 100px 0px 0px 50px;
+	display: inline;
+	border-radius: 7px;
+}
+
+.kevin_goalie {
+	position: absolute;
+	right: 27%;
+	top: 0%;
+	height: 350px;
+	width: 550px;
+	margin: 100px 0px 0px 50px;
+	display: inline;
+	border-radius: 7px;
+	border: 3px solid black;
+
+}
+
+.smithwicks {
+	position: absolute;
+	right: 20%;
+	top: 15%;
+	height: 400px;
+	width: 250px;
+	margin: 100px 0px 0px 50px;
+	display: inline;
+	border-radius: 7px;
+}
+
+.jameson_whiskey {
+	position: absolute;
+	right: 43%;
+	top: 1%;
+	height: 500px;
+	width: 290px;
+	margin: 100px 0px 0px 50px;
+	display: inline;
+	border-radius: 7px;
+}
+
+.jameson_logo {
+	position: absolute;
+	right: 3%;
+	top: 1%;
+	width: : 400px;
+	height: 200px;
+	margin: 100px 0px 0px 50px;
+	display: inline;
+	border-radius: 7px;
+	z-index: -1;
+}
+
+.murphys {
+	position: absolute;
+	right: 70%;
+	top: 1%;
+	width: : 400px;
+	height: 200px;
+	margin: 100px 0px 0px 50px;
+	display: inline;
+	border-radius: 7px;
+	z-index: -1;
+}
+
+.kevin_young {
+	position: absolute;
+	right: 65.5%;
+	top: 0%;
+	width: 220px;
+	height: 350px;
+	margin: 100px 100px 100px 50px;
+	display: inline;
+	border-radius: 7px;
+	border: 3px solid black;
+}
+
+.kevin_net {
+	position: absolute;
+	left: 72%;
+	top: 0%;
+	width: 220px;
+	height: 350px;
+	margin: 100px 100px 100px 50px;
+	display: inline;
+	border-radius: 7px;
+	border: 3px solid black;
+}
+
+.github {
+	position: absolute;
+	left: 85%;
+	top: 55%;
+	height: 110px;
+	width: 110px;
+}
+
+.LinkedIn {
+	position: absolute;
+	left: 7%;
+	top: 55%;
+	height: 110px;
+	width: 110px;
+}
+.row:after {
+	clear: both;
+}
+footer {
+	position: absolute;
+	top: 95%;
+	left: 90%;
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
